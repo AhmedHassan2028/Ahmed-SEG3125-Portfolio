@@ -161,6 +161,25 @@
   }
 }
 
+.aboutme-section {
+  margin: 8rem auto 0;
+  max-width: 760px;
+  padding: 1.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.923);
+  border-radius: 28px;
+  border: 0.5px solid;
+  border-color: rgba(228, 233, 239, 0.837);
+  box-shadow: 0 25px 70px rgba(20, 30, 55, 0);
+  align-items: flex-start;
+}
+
+.aboutme-caption {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #232f3f;
+}
+
 .pfp-row {
   margin-top: 6rem;
 }
