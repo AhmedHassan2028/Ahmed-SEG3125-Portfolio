@@ -1,10 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import sportsLogo from '../assets/sports.jpg';
 
 function Card4Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src="src/assets/sports.jpg" />
+      <Card.Img variant="top" src={sportsLogo} />
       <Card.Body>
         <Card.Title>Sport Analytics Site</Card.Title>
         <Card.Text>

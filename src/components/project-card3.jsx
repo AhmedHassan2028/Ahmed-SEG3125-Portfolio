@@ -1,10 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import eCommerceLogo from '../assets/e-commerce.png';
 
 function Card3Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src="src/assets/e-commerce.png" />
+      <Card.Img variant="top" src={eCommerceLogo} />
       <Card.Body>
         <Card.Title>E-commerce Website</Card.Title>
         <Card.Text>

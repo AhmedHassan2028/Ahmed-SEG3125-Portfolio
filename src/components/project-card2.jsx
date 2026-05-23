@@ -1,10 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import memoryLogo from '../assets/memory.webp';
+
 
 function Card2Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src="src/assets/memory.webp" />
+      <Card.Img variant="top" src={memoryLogo} />
       <Card.Body>
         <Card.Title>Memory Game</Card.Title>
         <Card.Text>

@@ -1,4 +1,5 @@
 import Figure from 'react-bootstrap/Figure';
+import linkedinPfp from '../assets/linkedin-pfp.jpg';
 
 function FigureExample() {
   return (
@@ -12,7 +13,7 @@ function FigureExample() {
         width={171}
         height={180}
         alt="171x180"
-        src="src/assets/linkedin-pfp.jpg"
+        src={linkedinPfp}
         rounded
       />
       

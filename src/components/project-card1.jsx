@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import dentalLogo from '../assets/dental-logo.jpg';
 
 function Card1Example({ onClick }) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src="src/assets/dental-logo.jpg" />
+      <Card.Img variant="top" src={dentalLogo} />
       <Card.Body>
         <Card.Title>Dental Clinic Website</Card.Title>
         <Card.Text>
