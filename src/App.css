@@ -163,6 +163,7 @@
 
 .aboutme-section {
   margin: 8rem auto 0;
+  margin-bottom: 8rem;
   max-width: 760px;
   padding: 1.75rem 1.5rem;
   background: rgba(255, 255, 255, 0.923);
@@ -177,6 +178,13 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.8;
+  color: #232f3f;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
   color: #232f3f;
 }
 
