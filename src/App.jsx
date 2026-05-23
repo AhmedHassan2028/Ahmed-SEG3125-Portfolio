@@ -4,11 +4,10 @@ import BasicExample from './components/nabvar';
 // import ShapeExample from './components/pfp';
 // import BodyShorthandExample from './components/textbox';
 import FigureExample from './components/aboutme';
-import Card1Example from './components/project-card1';
-import Card2Example from './components/project-card2';
-import Card3Example from './components/project-card3';
-import Card4Example from './components/project-card4'; 
+import AlertExample from './components/alert';
 
+//For now im putting a coming soon pop up instead of new coming soon page because it's been a while since i used router
+//I put my components in a folder to organize
 function App() {
   return (
     <>
@@ -17,11 +16,8 @@ function App() {
       <div className="projects-title d-flex justify-content-center padding-top-40">
         <h1>My Projects</h1>
       </div>
-      <div className="project-section d-flex flex-wrap gap-4 justify-content-center">
-        <Card1Example />
-        <Card2Example />
-        <Card3Example />
-        <Card4Example />
+      <div>
+        <AlertExample />
       </div>
       
     </>
