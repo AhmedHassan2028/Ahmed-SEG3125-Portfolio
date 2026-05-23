@@ -11,7 +11,7 @@ function FigureExample() {
         rounded
       />
       <Figure.Caption className="aboutme-caption mb-0">
-        I am a software engineering student at the University of Ottawa. I am currently taking the SEG 3125 course (Analysis and design of user interfaces) and through this experience, we’ll develop our skills in UI design and increase our knowledge on
+        I am a software engineering student at the University of Ottawa. I am currently taking the SEG 3125 course (Analysis and design of user interfaces) and through this experience, we’ll develop our skills in UI design and increase our knowledge on design elements.
       </Figure.Caption>
     </Figure>
   );
