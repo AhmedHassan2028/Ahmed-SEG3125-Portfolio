@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import sportsLogo from '../assets/sports.jpg';
+import sportsLogo from '../assets/Sports.jpg';
 
 function Card4Example({onClick}) {
   return (
