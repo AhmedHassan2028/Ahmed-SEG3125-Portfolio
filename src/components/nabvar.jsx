@@ -11,7 +11,9 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="#AboutMe">About Me</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link href="#Contact" disabled>
+              Contact
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
