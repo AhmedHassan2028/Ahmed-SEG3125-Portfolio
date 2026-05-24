@@ -1,11 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import dentalLogo from '../assets/dental-logo.jpg';
+// import dentalLogo from '../assets/dental-logo.jpg';
+import dentalLogo2 from '../assets/toothbrush.jpg';
 
+//I switched to unsplash images
 function Card1Example({ onClick }) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src={dentalLogo} />
+      <Card.Img variant="top" src={dentalLogo2} style={{ height: '180px', objectFit: 'cover' }} />
       <Card.Body>
         <Card.Title>Dental Clinic Website</Card.Title>
         <Card.Text>
