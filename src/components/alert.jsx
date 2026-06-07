@@ -12,6 +12,10 @@ function AlertExample() {
   //I wanna have 2s alerts
   //I use my react hook to indicare which card is clicked
   const handleAlertClick = (cardId) => {
+    if (cardId == 1) {
+      window.open('https://dentist-service.vercel.app/', '_blank');
+      return;
+    }
     setAlertCard(cardId);
     setTimeout(() => {
       setAlertCard(null);
