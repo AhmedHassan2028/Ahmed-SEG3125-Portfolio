@@ -20,6 +20,11 @@ function AlertExample() {
       window.open('https://memory-game-sable-three-31.vercel.app/', '_blank');
       return;
     }
+
+    if (cardId == 3) {
+      window.open('https://ecommerce-ruddy-three-51.vercel.app/', '_blank');
+      return;
+    }
     setAlertCard(cardId);
     setTimeout(() => {
       setAlertCard(null);
