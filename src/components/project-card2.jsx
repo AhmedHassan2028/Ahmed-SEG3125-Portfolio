@@ -7,7 +7,7 @@ import memoryGame from '../assets/memory.png';
 function Card2Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.ImgUpdate
+      <Card.Img
         variant="top"
         src={memoryGame}
         style={{ height: '180px', objectFit: 'cover', objectPosition: 'center top' }}
