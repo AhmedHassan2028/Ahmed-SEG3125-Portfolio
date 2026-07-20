@@ -14,7 +14,7 @@ function Card1Example({ onClick }) {
         style={{ height: '182px', objectFit: 'cover', objectPosition: 'left' }}
       />
       <Card.Body>
-        <Card.Title>Dental Clinic Website</Card.Title>
+        <Card.Title>Dental Clinic Service</Card.Title>
         <Card.Text>
           Dental clinic website for clients to learn about services and book appointments.
         </Card.Text>
