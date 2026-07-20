@@ -25,6 +25,12 @@ function AlertExample() {
       window.open('https://ecommerce-ruddy-three-51.vercel.app/', '_blank');
       return;
     }
+
+    if (cardId == 4) {
+      window.open('https://scoring-dashboard-a5.vercel.app/', '_blank');
+      return;
+    }
+
     setAlertCard(cardId);
     setTimeout(() => {
       setAlertCard(null);

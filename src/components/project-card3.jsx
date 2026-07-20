@@ -1,16 +1,21 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 // import eCommerceLogo from '../assets/e-commerce.png';
-import eCommerceLogo2 from '../assets/cart.jpg';
+// import eCommerceLogo2 from '../assets/cart.jpg';
+import groceryLogo from '../assets/grocery.png';
 
 function Card3Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src={eCommerceLogo2} style={{ height: '180px', objectFit: 'cover' }} />
+      <Card.Img
+        variant="top"
+        src={groceryLogo}
+        style={{ height: '180px', objectFit: 'cover', objectPosition: '65% top' }}
+      />
       <Card.Body>
         <Card.Title>E-commerce Website</Card.Title>
         <Card.Text>
-          An e-commerce website built using React and React-Bootstrap.
+          A grocery e-commerce website for customers to browse products and make online purchases.
         </Card.Text>
         <Button variant="primary" onClick={onClick}>View Project</Button>
       </Card.Body>

@@ -1,16 +1,21 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 // import memoryLogo from '../assets/memory.webp';
-import memoryLogo2 from '../assets/brain-memory.jpg';
+// import memoryLogo2 from '../assets/brain-memory.jpg';
+import memoryGame from '../assets/memory.png';
 
 function Card2Example({onClick}) {
   return (
     <Card style={{ width: '18rem', minHeight: '25rem' }}>
-      <Card.Img variant="top" src={memoryLogo2} style={{ height: '180px', objectFit: 'cover' }} />
+      <Card.ImgUpdate
+        variant="top"
+        src={memoryGame}
+        style={{ height: '180px', objectFit: 'cover', objectPosition: 'center top' }}
+      />
       <Card.Body>
         <Card.Title>Memory Game</Card.Title>
         <Card.Text>
-          A simple memory game built using React and React-Bootstrap.
+          A memory game containingfor players to memorize and recreate tile patterns.
         </Card.Text>
         <Button variant="primary" onClick={onClick}>View Project</Button>
       </Card.Body>
